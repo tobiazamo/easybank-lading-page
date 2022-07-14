@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page
 
-![Design preview for the Easybank landing page coding challenge](easybank-preview.jpg)
+![Design preview for the Easybank landing page coding challenge](https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/yezt1f56cfp2njnakpbo.jpg)
 
 Frontend Mentor coding challenge.
 
@@ -18,9 +18,9 @@ A frontend code challenge by [frontendmentor.io](https://frontendmentor.io). The
 
 ## Screenshots
 
-![Desktop version](./design/desktop-design.jpg)
-![Tablet version]
-![Mobile version](./design/mobile-design.jpg)
+![Desktop version](./images/easybank-desktop.jpeg)
+![Tablet version](./images/easybank-tablet.png)
+![Mobile version](./images/easybank-mobile.png)
 
 ## Technologies
 
