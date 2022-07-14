@@ -1,0 +1,78 @@
+.article {
+  background-color: $veryLightGray;
+  text-align: center;
+
+  @include breakpoint-up(medium) {
+    text-align: left;
+  }
+
+  &__content {
+
+  }
+
+  &__grid {
+
+    gap: 1.25rem;
+
+    @include breakpoint-down(small) {
+      display: flex;
+      flex-direction: column;
+    }
+    @include breakpoint-up(medium) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__item {
+    background-color: $white;
+    border-radius: 0.3125rem;
+    overflow: hidden;
+    box-shadow: 0 0.1875rem 0.75rem rgba(0,0,0,0.15);
+
+    transition: all 150ms ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    @include breakpoint-up(medium) {
+      flex: 0 0 48%;
+    }
+    @include breakpoint-up(large) {
+      flex: 1;
+    }
+
+  }
+
+  &__image {
+    background-size: cover; // doesn't stretch
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 12.5rem;
+    min-width: auto;
+  }
+
+  &__text {
+
+    padding: 1.875rem;
+    color: $grayishBlue;
+  }
+
+  &__author {
+    font-size: 0.625rem;
+    margin-bottom: 0.75rem;
+  }
+
+  &__title {
+    font-size: 1.0625rem;
+    line-height: 1.2;
+    color: $darkBlue;
+    margin-bottom: 0.5rem;
+  }
+
+  &__description {
+    font-size: 0.8125rem;
+  }
+}
+
