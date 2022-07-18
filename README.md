@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page
-
-![Design preview for the Easybank landing page coding challenge](https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/yezt1f56cfp2njnakpbo.jpg)
+# Live Site avaiable here
+https://tobiazamo.github.io/easybank-lading-page/
 
 Frontend Mentor coding challenge.
 
