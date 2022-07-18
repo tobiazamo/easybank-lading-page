@@ -1,5 +1,5 @@
 # Frontend Mentor - Easybank landing page
-# Live Site avaiable here
+## Live Site avaiable here
 https://tobiazamo.github.io/easybank-lading-page/
 
 Frontend Mentor coding challenge.
